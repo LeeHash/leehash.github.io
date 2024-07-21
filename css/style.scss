@@ -185,10 +185,9 @@ a:focus {
         color: $white;
 
         h1 {
-            text-transform: uppercase;
 
             span {
-                color: $primary1;
+                color: $white;
             }
         }
 
@@ -200,7 +199,7 @@ a:focus {
             margin-top: 45px;
 
             a {
-                @include hero_btn($primary1, $white, 10px, 45px, 5px);
+                @include hero_btn($white, $white, 10px, 45px, 5px);
             }
 
         }
